@@ -18,10 +18,13 @@ class Parser(HTMLParser):
     return self.links
 
 def get_links(URL, URL_links):
-  URL_request = requests.get(URL)
-  parser = Parser()
-  parser.feed(str(URL_request.content))
-  URL_links[URL] = set(parser.get_links())
+  try:
+    URL_request = requests.get(URL)
+    parser = Parser()
+    parser.feed(str(URL_request.content))
+    URL_links[URL] = set(parser.get_links())
+  except Exception as exc:
+    print("Error ocurred while processing URL: " + URL)
   return URL_links
 
 def print_links(URL_links):
