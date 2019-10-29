@@ -6,13 +6,13 @@
   * HTMLParser
   * requests 
 
-## Get libraries
+## Get Libraries
 ```
 pip3 install requests HTMLParser
 
 ``` 
 
-## Run localy
+## Run Locally
 
 ```
 python3 webcrawler.py http://www.rescale.com 5
