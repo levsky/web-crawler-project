@@ -12,7 +12,10 @@ pip3 install requests HTMLParser
 
 ``` 
 
-## Run Locally
+## Run Locally 
+Arguments: 
+1. URL to scan
+2. Numbers of workers
 
 ```
 python3 webcrawler.py http://www.rescale.com 5
