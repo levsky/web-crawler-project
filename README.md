@@ -3,8 +3,8 @@
 ## Prerequisites
 1. Python 3+
 2. Libraries:
-  * HTMLParser
-  * requests 
+   * HTMLParser
+   * requests 
 
 ## Get Libraries
 ```
