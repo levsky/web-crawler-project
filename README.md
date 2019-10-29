@@ -1,18 +1,18 @@
-# Web Crawler Project
+## Web Crawler Project
 
-## Prerequisites
+### Prerequisites
 1. Python 3+
 2. Libraries:
    * HTMLParser
    * requests 
 
-## Get Libraries
+### Get Libraries
 ```
 pip3 install requests HTMLParser
 
 ``` 
 
-## Run Locally 
+### Run Locally 
 Arguments: 
 1. URL to scan
 2. Number of workers
