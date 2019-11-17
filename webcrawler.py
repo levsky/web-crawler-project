@@ -41,7 +41,7 @@ if __name__ == '__main__':
   # Handle input parameters 
   if(len(sys.argv) != 3):
     print(f'Invalid number of arguments, please enter a single URL for crawling and number' + 
-          f' of workers\nExample: python3 {sys.argv[0]} http://www.rescale.com 5')
+          f' of workers\nExample: python3 {sys.argv[0]} http://www.rescale.com 4')
     sys.exit()
   
   URL = sys.argv[1]  
