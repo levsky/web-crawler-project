@@ -37,7 +37,7 @@ def print_links(URL_links):
     for link in link_set:
       print("  " + link)	
 
-if __name__ == '__main__':
+def main():
   # Handle input parameters 
   if(len(sys.argv) != 3):
     print(f'Invalid number of arguments, please enter a single URL for crawling and number' + 
@@ -56,3 +56,6 @@ if __name__ == '__main__':
     for future in concurrent.futures.wait(URL_future):
       for item in future:
         print_links(item.result())
+
+if __name__ == '__main__':
+  main()
